@@ -47,7 +47,7 @@
 @media (max-width: 450px) {
   /* Styles for all mobile and some tablet devices */
   #tile{
-        min-height: 100px;
+        min-height: 260px;
         padding: 10px;
     }
     #tile h1{

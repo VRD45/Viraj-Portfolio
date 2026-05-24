@@ -94,11 +94,13 @@
     cursor: pointer;
     transition: all 0.4s ease;
 }
-#projects .buttons button:hover{
+@media (hover: hover) {
+  #projects .buttons button:hover{
     background-color: var(--text-color);
     color: var(--hover-text-color);
     border-color: transparent;
     box-shadow: 5px 5px 40px var(--primary-color);
+}
 }
 
 @media (max-width: 767px) {
@@ -139,5 +141,12 @@
         min-width: 90px;
         margin: 5px;
         font-size: 0.9rem;
+        transition: none;
     }
+    #projects .buttons button:active{
+    background-color: var(--text-color);
+    color: var(--hover-text-color);
+    border-color: transparent;
+    box-shadow: 5px 5px 40px var(--primary-color);
+}
 }

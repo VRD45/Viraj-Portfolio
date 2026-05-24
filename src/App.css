@@ -39,7 +39,10 @@
   color: var(--primary-color);
   font-size: 3rem;
 }
-[data-tooltip]:hover::before {
+
+
+@media (hover: hover) {
+  [data-tooltip]:hover::before {
   display: block;
   position: absolute;
   content: attr(data-tooltip);
@@ -50,4 +53,5 @@
   font-size: 0.9rem;
   transform: translate(-20%, -160%);
   width: auto;
+}
 }

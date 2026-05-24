@@ -27,9 +27,53 @@
     height: 60px;
     transition: all 0.6s ease;
 }
-#navbar a:hover{
+
+
+
+@media (hover: hover) {
+  #navbar a:hover{
     font-size: 2rem;
     background-color: var(--text-color);
     color: var(--hover-text-color);
     box-shadow: 5px 5px 40px var(--primary-color);
+}
+}
+
+@media (max-width: 767px) {
+  /* Styles for all mobile and some tablet devices */
+    #navbar{
+    gap: 15px;
+    width: 400px;
+    height: 70px;
+}
+#navbar a{
+    font-size: 1.5rem;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+}
+#navbar a:hover{
+    font-size: 1.6rem;
+}
+}
+@media (max-width: 450px) {
+  /* Styles for all mobile and some tablet devices */
+  #navbar{
+    gap: 15px;
+    width: 350px;
+    height: 60px;
+}
+#navbar a{
+    font-size: 1.5rem;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    transition: all 0.1s ease;
+}
+#navbar a:active{
+    font-size: 1.6rem;
+    background-color: var(--text-color);
+    color: var(--hover-text-color);
+    box-shadow: 5px 5px 40px var(--primary-color);
+}
 }
