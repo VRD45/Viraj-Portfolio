@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Fredoka:wght@300..700&family=News+Cycle:wght@400;700&family=Permanent+Marker&family=Sniglet:wght@400;800&display=swap');
+:root {
+  --primary-color: #68b3e6;
+  --secondary-color: #9be0fc;
+  --text-color: #ffffff;
+  --hover-text-color: #000000;
+  --bg-color: #62778a;
+  --sub-text: #cecece;
+  --timeline-color: #9bc;
+}
+
+.App {
+  background-color: var(--bg-color);
+  /* width: 100vw; */
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--text-color);
+  font-family: "Cause", cursive;
+  font-weight: 100;
+  font-style: normal;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  /* background: url("./Assets/bg-black.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover; */
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.heading{
+  /* margin-top: 15px; */
+  color: var(--primary-color);
+  font-size: 3rem;
+}
+[data-tooltip]:hover::before {
+  display: block;
+  position: absolute;
+  content: attr(data-tooltip);
+  border-radius: 25px;
+  text-align: center;
+  background: #eee;
+  padding: 10px;
+  font-size: 0.9rem;
+  transform: translate(-20%, -160%);
+  width: auto;
+}

@@ -1,0 +1,68 @@
+#tile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 400px;
+    background-color: var(--primary-color);
+    padding: 10px 10px 20px 10px;
+}
+#tile h1{
+    margin: 50px 10px 30px 10px;
+    cursor: pointer;
+    transition: all 0.7s ease;
+}
+#tile h1:hover{
+    color: var(--hover-text-color);
+}
+#tile a{
+    text-decoration: none;
+     color: var(--text-color);
+    cursor: pointer;
+    transition: all 0.7s ease;
+    font-size: 1.8rem;
+    margin: 10px;
+}
+#tile a:hover{
+    color: var(--hover-text-color);
+}
+#tile h4{
+    font-weight: 200;
+    cursor: pointer;
+    transition: all 0.7s ease;
+}
+#tile h4:hover{
+    color: var(--hover-text-color);
+}
+#tile .social{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+@media (max-width: 767px) {
+  /* Styles for all mobile and some tablet devices */
+
+}
+@media (max-width: 450px) {
+  /* Styles for all mobile and some tablet devices */
+  #tile{
+        min-height: 100px;
+        padding: 10px;
+    }
+    #tile h1{
+        margin: 20px 10px;
+        font-size: 1.5rem;
+    }
+    #tile a{
+        font-size: 1.3rem;
+        margin: 5px;
+    }
+    #tile h4{
+        font-size: 0.7rem;
+    }
+    #tile .social{
+        margin: 8px;
+        gap: 10px;
+    }
+}

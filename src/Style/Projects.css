@@ -1,0 +1,143 @@
+#projects{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70vw;
+}
+#projects .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 50px;
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+    border: 2px solid var(--primary-color);
+    border-radius: 25px;
+    min-height: 200px;
+    transition: all 0.6s ease;
+}
+.card:hover{
+    background-color: var(--secondary-color);
+    color: var(--hover-text-color);
+    border-color: transparent;
+    box-shadow: 5px 5px 40px var(--primary-color);
+}
+.view{
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    border: none;
+}
+.view:hover{
+    background-color: var(--text-color);
+    color: var(--hover-text-color);
+    box-shadow: 5px 5px 40px var(--primary-color);
+}
+#projects .container{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    margin: 50px;
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+#projects .block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid var(--primary-color);
+    width: 300px;
+    height: 350px;
+    border-radius: 25px;
+    box-shadow: 10px 8px  35px rgba(188, 225, 250, 0.137);
+    cursor: pointer;
+    transition: all 0.7s ease;
+    background-color: rgb(54, 34, 107);
+
+}
+#projects .block:hover{
+    box-shadow: 5px 5px 40px var(--primary-color);
+}
+#projects .block iframe{
+    border: 2px solid var(--primary-color);
+    border-radius: 25px 25px 0 0;
+    margin-bottom: 35px;
+} 
+#projects h5{
+    font-size: 0.8rem;
+    font-weight: 200;
+    color: var(--sub-text);
+}
+#projects .buttons{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#projects .buttons button{
+    padding: 15px;
+    min-width: 120px;
+    margin: 5px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+#projects .buttons button:hover{
+    background-color: var(--text-color);
+    color: var(--hover-text-color);
+    border-color: transparent;
+    box-shadow: 5px 5px 40px var(--primary-color);
+}
+
+@media (max-width: 767px) {
+  /* Styles for all mobile and some tablet devices */
+    #projects{
+        margin-top: 20px;
+        width: 80vw;
+    }
+    #projects .container{
+        margin: 40px;
+        padding: 15px;
+        gap: 40px;
+    }
+}
+@media (max-width: 450px) {
+  /* Styles for all mobile and some tablet devices */
+    #projects .container{
+        margin: 30px;
+        gap: 30px;
+    }
+    #projects .block{
+        width: 270px;
+        height: 300px;
+
+    }
+    #projects .block iframe{
+        width: 270px;
+        margin-bottom: 10px;
+    } 
+    #projects h3{
+        font-size: 1rem;
+    }
+    #projects h5{
+        font-size: 0.7rem;
+    }
+    #projects .buttons button{
+        padding: 10px;
+        min-width: 90px;
+        margin: 5px;
+        font-size: 0.9rem;
+    }
+}
