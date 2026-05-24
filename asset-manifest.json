@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/VRD45/Viraj-Portfolio/static/css/main.cc8341dc.css",
-    "main.js": "/VRD45/Viraj-Portfolio/static/js/main.f25ffc7d.js",
-    "static/js/453.15a626a8.chunk.js": "/VRD45/Viraj-Portfolio/static/js/453.15a626a8.chunk.js",
-    "static/media/Viraj Dharmameher Resume.pdf": "/VRD45/Viraj-Portfolio/static/media/Viraj Dharmameher Resume.8f907fd4b6283e98091e.pdf",
-    "static/media/profile.png": "/VRD45/Viraj-Portfolio/static/media/profile.6c7144ddad0969f5bebf.png",
-    "index.html": "/VRD45/Viraj-Portfolio/index.html",
-    "main.cc8341dc.css.map": "/VRD45/Viraj-Portfolio/static/css/main.cc8341dc.css.map",
-    "main.f25ffc7d.js.map": "/VRD45/Viraj-Portfolio/static/js/main.f25ffc7d.js.map",
-    "453.15a626a8.chunk.js.map": "/VRD45/Viraj-Portfolio/static/js/453.15a626a8.chunk.js.map"
+    "main.css": "/Viraj-Portfolio/static/css/main.cc8341dc.css",
+    "main.js": "/Viraj-Portfolio/static/js/main.8be653bb.js",
+    "static/js/453.15a626a8.chunk.js": "/Viraj-Portfolio/static/js/453.15a626a8.chunk.js",
+    "static/media/Viraj Dharmameher Resume.pdf": "/Viraj-Portfolio/static/media/Viraj Dharmameher Resume.8f907fd4b6283e98091e.pdf",
+    "static/media/profile.png": "/Viraj-Portfolio/static/media/profile.6c7144ddad0969f5bebf.png",
+    "index.html": "/Viraj-Portfolio/index.html",
+    "main.cc8341dc.css.map": "/Viraj-Portfolio/static/css/main.cc8341dc.css.map",
+    "main.8be653bb.js.map": "/Viraj-Portfolio/static/js/main.8be653bb.js.map",
+    "453.15a626a8.chunk.js.map": "/Viraj-Portfolio/static/js/453.15a626a8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cc8341dc.css",
-    "static/js/main.f25ffc7d.js"
+    "static/js/main.8be653bb.js"
   ]
 }
